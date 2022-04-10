@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>
+        SuperTrunfo - HMTJ
+    </title>
+    <link rel="stylesheet" type="text/css" href="/style/style.css" />
+    <script type="text/javascript" src="/script/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">Super Trunfo - MAGIC </h1>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="wrapper">
+                <div>
+                    <div id="carta-jogador">
+                        <img src="img/card.png" style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div>
+                    <div id="carta-adv" class="carta">
+                            <img src="img/card.png" style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                </div>
+            </div>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <div id="resultado"></div>
+        </form>
+    </div>
+</body>
+
+</html>
